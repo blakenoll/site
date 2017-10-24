@@ -23,4 +23,6 @@ social:
 - title: github
   url: https://github.com/blakenoll
 markdown: kramdown
+sass:
+- style: compressed
 permalink: pretty

@@ -1,3 +1,4 @@
+---
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -68,7 +69,7 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 0px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000000;
@@ -132,7 +133,7 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 0px solid rgba(255,255,255,.3);
     }
 }
 
@@ -376,4 +377,47 @@ body {
   margin-left: auto;
   width: 50%;
   margin-bottom: 10px;
+}
+
+
+.portfolio-cards div {
+  margin-bottom: 30px;
+}
+
+/* This container helps the site-img behave as if it were an unscaled IMG element */
+.site-img-container {
+  width: calc(360px);
+  height: calc(225px);
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  background: #f9f9f9;
+}
+
+/* This is a masking container for the zoomed iframe element */
+.site-img {
+  -ms-zoom: 0.25;
+  -moz-transform: scale(0.25);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.25);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.25);
+  -webkit-transform-origin: 0 0;
+}
+/* This is our screen sizing */
+.site-img,
+.site-img iframe {
+  width: 1440px;
+  height: 900px;
+}
+
+/* This pseudo element masks the iframe, so that mouse wheel scrolling and clicking do not affect the simulated "screenshot" */
+.site-img:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
