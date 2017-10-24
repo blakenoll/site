@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+---
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
 
@@ -43,9 +43,3 @@
   right: 0;
   bottom: 0;
 }
-=======
----
-layout: style
----
-
->>>>>>> 9605de9695cd0bf22cb0037e096692570e4f74c0
