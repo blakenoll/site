@@ -11,8 +11,17 @@
     background: linear-gradient(to bottom right, #434343, #000000);
     border-radius: 3px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+    transition: background 1s ease-in;
+
+
 
 }
+
+.card:hover {
+  background: linear-gradient(to right, #434343, #000000);
+
+}
+
 
 .flex-row {
 
