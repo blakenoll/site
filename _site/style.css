@@ -7,16 +7,24 @@
 
 .bg {
   background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #ccc, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #ccc, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #ccc, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ccc, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 80px;
+}
+
+.bg-light {
+  background: #141E30;
+  background: -webkit-linear-gradient(to bottom, #ccc, #000000);
+  background: linear-gradient(to bottom, #cccccc, rgba(0, 0, 0, .1)), url(/img/connor-siedow-634102-unsplash.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .card {
     padding: 30px;
     margin: 10px;
     background: #000000;
-    background: -webkit-linear-gradient(to bottom right, #434343, #000000);
-    background: linear-gradient(to bottom right, #434343, #000000);
+    background: -webkit-linear-gradient(to bottom right, rgba(0,0,0,.5), rgba(0,0,0,.075));
+    background: linear-gradient(to bottom right, rgba(0,0,0,.5), rgba(0,0,0,.075));
     border-radius: 3px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.16);
     transition: background 1s ease-in;
@@ -26,7 +34,7 @@
 }
 
 .card:hover {
-  background: linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to bottom right, #434343, #000000);
 
 }
 
@@ -355,8 +363,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
+    border: 1px solid #fff;
+    color: #fff;
     background-color: transparent;
 }
 
