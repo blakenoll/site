@@ -306,7 +306,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid {{ site.color.links }};
     outline: 0;
-    color: {{ site.color.primary-dark }};
+    color: {{ site.color.link-text }};
     background-color: {{ site.color.links }};
 }
 

@@ -17,6 +17,7 @@ description: Full Stack Web Developer located in Los Angeles CA.
 color:
   primary-dark: "#000000"
   links: "#219ab3"
+  link-text: "#ffffff"
 footer: blakenoll.com
 social:
 - title: linkedin
