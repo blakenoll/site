@@ -9,8 +9,8 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Coda', sans-serif;
-    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -139,8 +139,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(0, 0, 0, 1)), url(/img/michael-olsen-411871-unsplash.jpg) no-repeat bottom center scroll;
+    color: #000;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(255, 255, 255, 1)), url(/img/michael-olsen-411871-unsplash.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -181,10 +181,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 35px;
     font-size: 40px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -194,7 +194,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: {{ site.color.links }};
     background: rgba(255,255,255,.1);
 }
 
