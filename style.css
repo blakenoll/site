@@ -70,7 +70,9 @@
 
 {% include css/grayscale.css %}
 
-
+.fa-bars {
+  color: #fff;
+}
 
 .reef-gradient {
   background: #00d2ff;  /* fallback for old browsers */
