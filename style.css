@@ -1,7 +1,6 @@
 ---
 ---
 
----
 {% include css/bootstrap.min.css %}
 
 .bg {
@@ -17,6 +16,15 @@
   background: -webkit-linear-gradient(to bottom, #ccc, #000000);
   background: linear-gradient(to bottom, #cccccc, rgba(0, 0, 0, .1)), url(/img/connor-siedow-634102-unsplash.jpg) no-repeat center;
   background-size: cover;
+}
+
+.btn-outline {
+  border-color: #4CA1AF;
+}
+
+.btn-outline:hover {
+  background-color: #4CA1AF;
+  color: #fff;
 }
 
 .card {
