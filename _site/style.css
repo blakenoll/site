@@ -1,3 +1,8 @@
+@font-face {
+  font-family: EndlessBummer;
+  src: url("fonts/ENDLESSBUMMER-Regular.woff");
+}
+
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -488,4 +493,9 @@ body {
 
 .white-text {
   color: #f7f7ff;
+}
+
+.navbar-brand {
+  font-family: EndlessBummer;
+  font-size: 24px;
 }

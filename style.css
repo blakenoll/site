@@ -1,6 +1,11 @@
 ---
 ---
 
+@font-face {
+  font-family: EndlessBummer;
+  src: url("fonts/ENDLESSBUMMER-Regular.woff");
+}
+
 {% include css/bootstrap.min.css %}
 
 .bg {
@@ -100,4 +105,9 @@
 
 .white-text {
   color: #f7f7ff;
+}
+
+.navbar-brand {
+  font-family: EndlessBummer;
+  font-size: 24px;
 }
