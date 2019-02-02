@@ -20,7 +20,7 @@
   color: #fff;
   background: #141E30;
   background: -webkit-linear-gradient(to bottom, #ccc, #000000);
-  background: linear-gradient(to bottom, #cccccc, rgba(0, 0, 0, .1)), url(/img/connor-siedow-634102-unsplash.jpg) no-repeat center;
+  background: linear-gradient(to bottom, #cccccc, rgba(0, 0, 0, .1)), url(/img/connor-siedow-634102-unsplash-min.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -225,7 +225,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #333;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(255, 255, 255, 1)), url(/img/michael-olsen-411871-unsplash.jpg) no-repeat bottom center scroll;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(255, 255, 255, 1)), url(/img/michael-olsen-411871-unsplash-min.jpg) no-repeat bottom center scroll;
     background-color: #878c8f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
