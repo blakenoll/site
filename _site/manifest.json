@@ -1,0 +1,15 @@
+{
+  "short_name": "Blake Noll",
+  "name": "Blake Noll",
+  "icons": [
+    {
+      "src": "img/bLogo.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f2f2f2",
+  "display": "standalone",
+  "theme_color": "#f2f2f2"
+}
